@@ -5,14 +5,21 @@
   <meta charset="utf-8">
   <meta name="description" content="My name is Eliaser Benjamin, and this is my personal website.">
   <title>Eliaser's Personal Site</title>
+  <link rel="stylesheet" href="CSS/styles.css">
+
+<! -- Inline CSS Code 1st rank importance -->
+<! -- Internal CSS Code 2nd rank importance -->
+
 </head>
 
-<body style="background-color: #EAF6F6;">
-  <table cellspacing="20">
+<body>
+
+  <table>
+  <table cellspacing="20" class="tbTop">
     <tr>
-      <td><img src="Images/Eliaser Photo.jpeg" alt="Eliaser Profile Photo"></td>
+      <td class="tdFirst"><img src="Images/Eliaser Photo.jpeg" alt="Eliaser Profile Photo"></td>
       <td>
-        <h1>Eliaser Benjamin</h1>
+        <h1 class="name">Eliaser Benjamin</h1>
         <p>
           <strong>Founder and CEO of <a href="https://www.google.com">Edskone</a>, and <a href="deeppoketz.html">Deeppoketz</a>. </strong>
         </p>
@@ -22,28 +29,36 @@
       </td>
     </tr>
   </table>
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li>
-      <p>
-        Namibia University of Science and Technology; Bachelor's Degree - Business Management.
-      </p>
-    </li>
-  </ul>
-  <h3>Hobbies</h3>
-  <ol>
-    <li>Having fun with friends or family.</li>
-    <li>Generating wealth.</li>
-  </ol>
 
-  <hr>
-  <h3>Contact</h3>
-  <p>let myEmail = " benjamineliaser97[at]gmail[dot]com"</p>
+  </table>
+  <hr class="hrTop">
 
-  <h3>Social Media</h3>
+  <table cellspacing="20" class="tbBottom">
+    <td>
+      <h3 id="education">Education</h3>
+      <ul>
+        <li>
+          <p>
+            Namibia University of Science and Technology; Bachelor's Degree - Business Management.
+          </p>
+        </li>
+      </ul>
+      <h3 id="hobbies">Hobbies</h3>
+      <ol>
+        <li>Having fun with friends or family.</li>
+        <li>Generating wealth.</li>
+      </ol>
 
-  <p><a href="https://www.instagram.com/elrbenjamin/">Instagram</a> | <a href="https://twitter.com/elrbenjamin">Twitter</a></p>
+      <h3 id="contact">Contact</h3>
+      <p>let myEmail = " benjamineliaser97[at]gmail[dot]com"</p>
+
+      <h3 id="social">Social Media</h3>
+
+      <p><a href="https://www.instagram.com/elrbenjamin/">Instagram</a> | <a href="https://twitter.com/elrbenjamin">Twitter</a></p>
+
+    </td>
+  </table>
+
 
 </body>
 
