@@ -1,0 +1,68 @@
+
+/*External CSS Code */
+/* **************************TAG SELECTORS******************** */
+body {
+  background-color: #EAF6F6;
+}
+
+img {
+  border-radius: 10px;
+  border: 5px solid darkcyan;
+}
+
+/* **************************CLASS SELECTORS******************** */
+
+.tbTop {
+  width: 100%;
+  background-color: lightblue;
+  border-radius: 10px;
+}
+
+.tbTop:hover {
+  background-color: rgba(255, 255, 128, .5);
+}
+
+.tbBottom {
+  width: 100%;
+  background-color: lightblue;
+  border-radius: 10px;
+}
+
+.tbBottom:hover {
+  background-color: rgba(255, 255, 128, .5);
+}
+
+.tdFirst {
+  width: 50px;
+}
+
+.name {
+  color: darkcyan;
+}
+
+.hrTop {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  border-color: darkcyan;
+  width: 5%;
+}
+
+
+/* **************************IDs SELECTORS******************** */
+
+#education {
+  color: darkcyan;
+}
+
+#hobbies {
+  color: darkcyan;
+}
+
+#contact {
+  color: darkcyan;
+}
+
+#social {
+  color: darkcyan;
+}
